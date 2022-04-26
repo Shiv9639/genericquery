@@ -1,0 +1,19 @@
+# DATASOURCE CONFIGURATION
+
+spring:
+    ods:
+        datasource:
+            password: ${ODS_DB_PASSWORD}
+            url: ${ODS_DB_URL}
+            username: ${ODS_DB_USERNAME}
+    data:
+        mongodb:
+            uri: ${QUERY_DB_URI}
+            database: ${QUERY_DB_NAME}
+
+    mongo:
+        uri: ${MONGO_DB_URI}
+        database: ${MONGO_DB_NAME}
+
+server:
+    port: 8080
